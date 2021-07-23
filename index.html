@@ -14,7 +14,7 @@
         <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png"/>
     </head>
     <body>
-        <body style="background-color:rgb(230, 232, 243);"></body>
+        <body style="background-color:white;"></body>
         <style>
             div {
                 text-align: center;
@@ -28,13 +28,34 @@
                 word-break: break-word;
                 padding: 100px 0;
             }
+
+            .menubutton{
+                background-image: linear-gradient(to bottom right, #4B73FF, #AFC1FF);
+                border:none;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                display: inline-block;
+                font-size: 20;
+                padding: 10px 24px;
+                border-radius: 20px;
+                transition-duration: 0.2s;
+                text-decoration: none;
+            }
+
+            .menubutton:hover{
+                box-shadow: 0 5px 10px 0 #5162A0;
+            }
+
         </style>
         
         <span>
-            <img src='assets/home_image.png'>
+            <img src='assets/home_image.png' alt='Veronica Cruz, Computer Science Student at University of Maryland, College Park'>
             <div>
                 <p></p>
-                <a href='index.html'><img src='assets/home.png'></a><a href='about.html'><img src="assets/about.png"><a href='resume.html'><img src="assets/resume.png"><a href='contact.html'><img src='assets/contact.png'></a>
+                <a href='index.html' class='button menubutton'>home</a></button>
+                <a href='about.html'class='button menubutton'>about</a></button>
+                <a href='resume.html' class='button menubutton'>resume</a></button>
+                <a href='contact.html'class='button menubutton'>contact</a></button>            
             </div>
         </span>
       

@@ -10,32 +10,66 @@
 
             gtag('config', 'G-Z1QSSHHHXP');
             </script>
+            <script src="https://kit.fontawesome.com/505ffdc891.js" crossorigin="anonymous"></script>
         <title>resume | veronica cruz</title>
         <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png"/>
         <script src="https://kit.fontawesome.com/505ffdc891.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
     </head>
     <body>
-        <body style="background-color:rgb(230, 232, 243);"></body>
+        <body style="background-color:rgb(255, 255, 255);"></body>
         <style>
-            * {
-            box-sizing: border-box;
-            }
-
             .center {
                 text-align: center;
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
             }
 
             .leftalign{
                 text-align: left;
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                margin: 30px 150px 30px 150px;
+                font-family:  Verdana, Geneva, Tahoma, sans-serif;
+                margin: 60px 200px 60px 200px;
             }
             
+            .menubutton{
+                background-image: linear-gradient(to bottom right, #4B73FF, #AFC1FF);
+                border:none;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                display: inline-block;
+                font-size: 20;
+                padding: 10px 24px;
+                border-radius: 20px;
+                transition-duration: 0.2s;
+                text-decoration: none;
+            }
+
+            .menubutton:hover{
+                box-shadow: 0 5px 10px 0 #5162A0;
+            }
+
+            .button2{
+                background-image: linear-gradient(to bottom right, #4B73FF, #AFC1FF);
+                border:none;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                display: inline-block;
+                font-size: 20;
+                padding: 10px 24px;
+                border-radius: 20px;
+                transition-duration: 0.2s;
+                text-decoration: none;
+            }
+
+            .button2:hover{
+                opacity: 0.75;
+            }
+
             hr {
                 width: 70%;
                 margin-left: auto;
                 margin-right: auto;
+                margin-top: 25px;
+                margin-bottom: 25px;
             }
 
             span {
@@ -47,45 +81,119 @@
                 padding: 100px 0;
             }
 
-            /* Create two equal columns that floats next to each other */
-            .column1 {
-                float: left;
-                width: 50%;
-                padding: 10px;
-                border-style: none solid none none;
-                border-width:1px;
-            }
-
-            .column2 {
-                float: left;
-                width: 50%;
-                padding: 10px;
-                border-style: none none none solid;
-                border-width:1px;
-            }
-
-            .column3 {
-                float: left;
-                width: 50%;
-                padding: 10px;
-                border-style: none none none none;
-            }
-
-            /* Clear floats after the columns */
-            .row:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
 
             ul.a {
                 list-style-type: circle;
             }  
 
-            .dropbtn > i {
+
+            .item {
+                float: left;
+                width: 20%;
+                padding: 10px;
+                margin: 15px;
+                border-style: none none none none;
+                border-width:1px;
+                background-color: white;
+                text-align: left;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                /* position: absolute; */
+                /* display: flex;
+                align-items: center; */
+                border-radius: 12px;
+            }
+
+            .item:hover{
+                box-shadow: 0 5px 10px 0 #FFC554;
+            }
+
+
+
+            .toprow{
+                /* content: ""; */
+                float:left;
                 display: flex;
-                margin-bottom: -3px;
-                margin-right: 4px;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items:center;
+                padding: 60px 0px 0px;
+                /* clear: both; */
+                background-color: #FFE8BA;
+                width: 100%;
+                margin: 30px 0px 0px 0px;
+            }
+
+            .middlerow{
+                /* content: ""; */
+                float:left;
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items:center;
+                padding: 10px 0px 10px;
+                /* clear: both; */
+                background-color: #FFE8BA;
+                width: 100%;
+                margin: 0px 0px 0px 0px;
+            }
+
+            .bottomrow{
+                /* content: ""; */
+                float:left;
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items:center;
+                padding: 10px 0px 60px;
+                /* clear: both; */
+                background-color: #FFE8BA;
+                width: 100%;
+                margin: 0px 0px 60px 0px;
+            }
+
+            .container{
+                float:left;
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items:center;
+                padding: 10px 0px 60px;
+                background-color: #fff;
+                width: 100%;
+                margin: 0px 0px 0px 0px;
+            }
+
+            .imagecontainer{
+                display: inline;
+                float: left;
+                width:50%;
+            }
+            
+            .textcontainer{
+                display: inline;
+                text-align: left;
+                font-family:  Verdana, Geneva, Tahoma, sans-serif;
+                float: left;
+                width:45%;
+                margin-left: 50px;
+            }
+
+            .box{
+                float: left;
+                width: 45%;
+                padding: 30px;
+                margin: 15px;
+                border-style: none none none none;
+                border-color: black;
+                background-color: white;
+                text-align: left;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                border-radius: 12px;
+                box-shadow: 0 5px 10px 0 grey;
             }
 
         </style>
@@ -93,142 +201,177 @@
         <span>
             <div class='center'>
                 <h1><em>resume</em></h1>
-                <a href="https://www.linkedin.com/in/veronicadcruz/"><img src='assets/linkedin.png'></a>
+                <a href='https://www.linkedin.com/in/veronicadcruz/' class='button button2'>linkedin page</a></button>
                 <!-- <a href="resume.pdf"><img src='assets/resume_download.png'></a> -->
             </div>
             <hr />
                 
             <div class='leftalign'>
-        
-                <div class="row">
-                    <div class="column1">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h2 style="display: inline-block"><em>  education</em></h2>
-                        <h3 style="line-height:0.3">university of maryland</h3>
-                        <h4 style="line-height:0.3">computer science</h4>
-                        <p style="line-height:0.3"><em>august 2021-may 2025 | college park, md</em></p>
-                        <br>
-                        <h3 style="line-height:0.3">notre dame high school</h3>
-                        <h4 style="line-height:0.3">high school diploma</h4>
-                        <p style="line-height:0.3"><em>august 2017-june 2021 | lawrenceville, nj</em></p>
-                        <br>
-                        <h3 style="line-height:0.3"><a href='https://www.summersteminstitute.org/'>summer stem institute</a></h3>
-                        <h4 style="line-height:0.3">certificate of completion</h4>
-                        <p style="line-height:0.3"><em>june 2020-august 2020 | virtual bootcamp and research program</em></p>
-                        <br>
-
-
-                        <i class="fas fa-briefcase"></i>
-                        <h2 style='display:inline-block'><em>experience</em></h2>
-                        <h3 style="line-height:1"><a href="https://procrastinote.org/">procrastinote</a> | co-founder, chief administrator, lead graphic designer</h3>
-                        <h4 style="line-height:0.3">july 2020-march 2021 | remote</h4>
-                        <ul class='a'>
-                            <li>co-created a website that aids struggling students by providing free notes for high school courses 
-                                and resources to help them enrich their minds.</li>
-                            <li>initiated and co-lead meetings.</li>
-                            <li>built website using a custom domain, bluehost, and wordpress.</li>
-                            <li>created logo and posts using figma and canva.</li>
-                        </ul>
-
-                        <br>
-
-                        <i class="fas fa-palette"></i>
-                        <h2 style='display:inline-block'><em>extracurriculars</em></h2>
-                        <h3 style="line-height:1"><a href='https://talktomeinkorean.com/'>self-studying korean</a></h3>
-                        <h4 style="line-height:0.3">january 2019-present | online</h4>
-                        <ul class='a'>
-                            <li>basic knowledge of grammar and vocabulary</li>
-                            <li>studying for the TOPIK Level 2</li>
-                        </ul>
+                <img src='assets/education.png' alt='education'
+                    width='142px'
+                    height=auto
+                    />
+                        <p>I am a recent graduate of Notre Dame High School where I discovered my passion for computer science. In Fall 2021, I will begin attending 
+                        the University of Maryland (UMD). I will be a Computer Science major and will also be pursuing a Technology Entrepreneurship minor. 
+                        At the University of Maryland, I plan on being involved with Technica, the largest all women and nonbinary hackathon.</p>
                         
-                        <br>   
-
-                        <i class="fas fa-code"></i>
-                        <h2 style='display:inline-block'><em>projects</em></h2>
-                        <h3 style="line-height:0.3">freelance web developer | wordpress</h3>
-                        <h4 style="line-height:0.3">october 2020-present</h4>
-                        <ul class='a'>
-                            <li>commissioned to create websites for portfolios, weddings, etc.</li>
-                            <li>used wordpress to create websites</li>
-                        </ul>
-
-                        <h3 style="line-height:0.3"><a href='research_paper.pdf'>data science research</a> | python, latex</h3>
-                        <h4 style="line-height:0.3">october 2020-present</h4>
-                        <ul class='a'>
-                            <li>participated in the summer stem institute's research program</li>
-                            <li>tracked and interpolated the amounts of noise in telescope data</li>
-                            <li>modeled noise in the universe based on position using data from the herschel pacs telescope</li>
-                        </ul>
-                    
-                    </div>
-
-                    <div class="column3">
-                        <i class="fas fa-cloud"></i>
-                        <h2 style="display: inline-block"><em>aspirations</em></h2>
-                        <ul class='a'>
-                            <li>earn a JD/MBA</li>
-                            <li>work at NASA as a data scientist</li>
-                            <li>work at a tech startup</li>
-                        </ul>
+                        <p>In the summer of 2020, I took part in a 6-week online program called the <a href=https://www.summersteminstitute.org/'>Summer STEM Institute</a>. 
+                        The bootcamp curriculum consisted of statistics, data analysis, and machine learning. Additionally, I took part in the research program in which I 
+                        analyzed data from the Herschel PACS telescope. I modeled noise in the universe based on position using said data. All of this was done in Python 
+                        using various libraries such as matplotlib, pandas, and numpy. I wrote a paper (using LaTeX) covering my findings which can be found <a href="research_paper.pdf">here</a>.
+                        </p>
                         
                         <br>
+                <img src='assets/experience.png' alt='experience'
+                width='171.5px'
+                height=auto
+                />       
+                        <p>After witnessing firsthand the disastrous effects of COVID-19 pandemic on education, some colleagues from the Summer STEM Institute and I created a 
+                            nonprofit organization called <a href='https://procrastinote.org/'>ProcrastiNote</a> that provides free notes for high school courses along with other resources. These include productivity 
+                            printables that I designed myself using Figma and a blog with advice for high schoolers with articles that I researched and wrote myself. I helped 
+                            lead the team as Chief Administrator. Additionally, I designed and developed the website using WordPress. I was involved with ProcrastiNote from 
+                            July 2020 until March 2021.
+                        </p>
 
-                        <i class="far fa-comments"></i>
-                        <h2 style="display: inline-block"><em>skills</em></h2>
-                        <h3 style='line-height:0.3'><a href='https://github.com/veronica21cruz'>programming</a></h3>
-                        <p>proficient</p>
-                            <ul class='a'>
-                                <li>python</li>
-                                <li>latex</li>
-                            </ul>
-                        <p>learning</p>
-                            <ul class='a'>
-                                <li>html</li>
-                                <li>css</li>
-                                <li>java</li>
-                            </ul>
-                        <h3 style='line-height:0.3'>languages</h3>
-                        <p>english - native</p>
-                        <p>spanish - fluent</p>
-                        <p>korean - elementary</p>
+                        <p>ProcrastiNote is fiscally sponsored by Hack Club Bank.</p>
+                <br>
+                <img src='assets/extracurriculars.png' alt='extracurriculars'
+                    width='204px'
+                    height=auto
+                />
+                    <p>Since January 2019, I have been teaching myself Korean. I have taught myself using various online resources such as <a href='https://talktomeinkorean.com/'>Talk to Me in Korean</a> and Anki and 
+                        paperback books that teach about reading, speaking/listening, vocabulary, and grammar. In the Fall of 2022, I am planning on studying abroad at Yonsei University in 
+                        Seoul, Korea.
+                    </p>
+                <br>
+                <img src='assets/projects.png' alt='projects'
+                width='171.5px'
+                height=auto
+                />       
+                        <p>
+                            Since October 2020, I have been working as a freelance web developer and designer. I have created websites using WordPress for portfolios, weddings, and more (clients did not 
+                            consent to having their websites publicized). This summer, I have been self studying HTML and CSS and built this website using those languages in order to practice my skills.
+                        </p>      
 
-                        <i class="fas fa-medal"></i>
-                        <h2 style="display: inline-block"><em>achievements</em></h2>
-                        <ul class='a'>
-                            <li><b>2021</b> academic excellence in graphic design</li>
-                            <li><b>2021</b> academic excellence in honors computer science</li>
-                            <li><b>2020</b> st. albert the great award</li>
-                                <ul>
-                                    <li>greater than 100% final grade in philosophy</li>
-                                </ul>
-                        </ul>
-                        <br>
-                        <br>
-
-                        <i class="fas fa-brain"></i>
-                        <h2 style='display:inline-block'><em>interests</em></h2>
-                        <ul class='a'>
-                            <li>astronomy and space exploration</li>
-                            <li>business</li>
-                            <li>data visualization</li>
-                            <li>data science</li>
-                            <li>entrepreneurship</li>
-                            <li>law</li>
-                            <li>machine learning</li>
-                            <li>web development and design</li>
-                        </ul>
-                        
-                    </div>
-                  </div>
-                    
+                </div>
             </div>
-            <hr />
+
+
+            <div class='toprow'>
+                <img src='assets/skills.png' alt='skills'
+                width='79px'
+                height=auto
+                />       
+                <br>
+            </div>
+            <div class='middlerow'; >
+                <!-- row one -->
+                <div class='item'>
+                    <i class="fab fa-python"></i>
+                    <h3 style='display: inline-block'>Python</h3>
+                </div>
+                <div class='item'>
+                    <i class="far fa-file"></i>
+                    <h3 style='display:inline-block'>LaTeX</h3>
+                </div>
+                <div class='item'>
+                    <i class="fab fa-html5"></i>
+                    <h3 style='display:inline-block'>HTML & CSS</h3>
+                </div>
+                <div class='item'>
+                    <i class="fab fa-java"></i>
+                    <h3 style='display:inline-block'>Java</h3>
+                </div>
+            </div>
+            <div class='middlerow'>
+                <!-- row two -->
+                <div class='item'>
+                    <h3>🇺🇸 English</h3>
+                    <h4>Native Speaker</h4>
+
+                </div>
+                <div class='item'>
+                    <h3>🇪🇸 Spanish</h3>
+                    <h4>Heritage Speaker</h4>
+                </div>
+                <div class='item'>
+                    <h3>🇰🇷 Korean</h3>
+                    <h4>Elementary Level Speaker</h4>
+                </div>
+            </div>
+            <div class='bottomrow'>
+                <!-- row three -->
+                <div class='item'>
+                    <i class="far fa-clipboard"></i>
+                    <h3 style='display: inline-block'>Leadership</h3>
+                </div>
+                <div class='item'>
+                    <i class="far fa-comment"></i>
+                    <h3 style='display:inline-block'>Public Speaking</h3>
+                </div>
+                <div class='item'>
+                    <i class="far fa-lightbulb"></i>
+                    <h3 style='display:inline-block'>Innovation</h3>
+                </div>
+                <div class='item'>
+                    <i class="fas fa-brain"></i>
+                    <h3 style='display:inline-block'>Logical Thinking</h3>
+                </div>
+            </div>
+
+            <div class='container'>
+                <div class='box'>
+                    <img src='assets/aspirations.png' alt='aspirations'
+                    width='145px'
+                    height=auto>
+                    <br>
+                    <i class="far fa-check-square"></i>                    
+                    <p style='display: inline-block;'>Go to the University of Maryland and study Computer Science.</p>
+                    <br>
+                    <i class="far fa-square"></i>
+                    <p style='display: inline-block;'>Earn a JD/MBA.</p>
+                    <br>
+                    <i class="far fa-square"></i>
+                    <p style='display: inline-block;'>Work at NASA as a Data Scientist.</p>
+                    <br>
+                    <i class="far fa-square"></i>
+                    <p style='display: inline-block;'>Work at a technology startup.</p>
+                </div>
+            </div>
+
+            <div class='container'>
+                <div class='imagecontainer'>
+                    <img src='assets/computer.jpeg'
+                    width="100%">
+        
+                </div>
+                <div class='textcontainer'>
+                    <img src='assets/interests.png' alt='interests'
+                    width='118px'
+                    height=auto>
+                    <ul style='list-style-type: circle;'>
+                        <li>Astronomy and space exploration</li>
+                        <li>Business</li>
+                        <li>Data visualization</li>
+                        <li>Data science</li>
+                        <li>Entrepreneurship</li>
+                        <li>Law</li>
+                        <li>Machine learning</li>
+                        <li>Web development and design</li>
+                    </ul>
+
+                </div>
+            </div>
 
             <div class='center'>
-                <p></p>
-                <a href='index.html'><img src='assets/home.png'></a><a href='about.html'><img src="assets/about.png"><a href='resume.html'><img src="assets/resume.png"><a href='contact.html'><img src='assets/contact.png'></a>
-      
-                
+                <br>
+                <hr /> 
+                <a href='index.html' class='button menubutton'>home</a></button>
+                <a href='about.html'class='button menubutton'>about</a></button>
+                <a href='resume.html' class='button menubutton'>resume</a></button>
+                <a href='contact.html'class='button menubutton'>contact</a></button>
+            </div>
+
         </span>
       
        
