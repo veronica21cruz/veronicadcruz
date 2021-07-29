@@ -16,6 +16,41 @@
     <body>
         <body style="background-color:white;"></body>
         <style>
+            .page{
+                float:left;
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items:center;
+                background-image: linear-gradient(to bottom right, #4B73FF, #AFC1FF);
+
+                margin: 0px 0px 0px 0px;
+                position:fixed;
+                width:100%;
+                height:100%;
+                top:0px;
+                left:0px;
+                z-index:1000;
+            
+            }
+
+            .content {
+                float: left;
+                width: 80%;
+                padding: 30px 0px;
+                margin: 15px;
+                position: relative;
+                border-style: none none none none;
+                border-width:1px;
+                background-color: white;
+                text-align: left;
+                justify-content: center;
+                align-items:center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                border-radius: 30px;
+                box-shadow: 0 20px 40px 0 #5162A0;
+            }
             div {
                 text-align: center;
                 font-family:  Verdana, Geneva, Tahoma, sans-serif;
@@ -45,20 +80,35 @@
             .menubutton:hover{
                 box-shadow: 0 5px 10px 0 #5162A0;
             }
+
+            hr {
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
         </style>
         
-        <span>
-            <div>
-                <h1><em>contact</em></h1>
-                <p><b>email: </b><a href="mailto:veronicadpcruz@gmail.com">veronicadpcruz@gmail.com</a></p>
-                <p><b>linkedin: </b><a href="https://www.linkedin.com/in/veronicadcruz/">https://www.linkedin.com/in/veronicadcruz/</a></p>
-                <p></p>
-                <a href='index.html' class='button menubutton'>home</a></button>
-                <a href='about.html'class='button menubutton'>about</a></button>
-                <a href='resume.html' class='button menubutton'>resume</a></button>
-                <a href='contact.html'class='button menubutton'>contact</a></button>      
+        <div class='page'>
+            <div class='content'>
+                    <div>
+                        <h1 style='display:inline-block; padding: 0px 50px 0px 0px; font-size: 72px;'>veronica cruz</h1>
+                        <a href='index.html' class='button menubutton'>home</a></button>
+                        <a href='about.html'class='button menubutton'>about</a></button>
+                        <a href='resume.html' class='button menubutton'>resume</a></button>
+                        <a href='contact.html'class='button menubutton'>contact</a></button>
+                    </div>
+                    <hr />
+                    <div>
+                        <h2><em>contact</em></h2>
+                        <p><b>email: </b><a href="mailto:veronicadpcruz@gmail.com">veronicadpcruz@gmail.com</a></p>
+                        <p><b>linkedin: </b><a href="https://www.linkedin.com/in/veronicadcruz/">https://www.linkedin.com/in/veronicadcruz/</a></p>
+
+                    </div>
             </div>
-        </span>
+        </div>
+
       
        
             
